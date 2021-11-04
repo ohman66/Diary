@@ -8,10 +8,8 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:appComponentFactory=""
-        tools:replace="android:appComponentFactory">
-        <activity android:name=".LoginActivity" android:exported="true">
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
